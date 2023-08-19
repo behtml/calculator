@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=IBM+Plex+Mono:wght@200&family=Montserrat&family=Mukta:wght@300&display=swap" rel="stylesheet">
+<link rel="shorcut icon" href="https://png.pngtree.com/png-clipart/20190614/original/pngtree-vector-calculator-icon-png-image_3782871.jpg">
+</head>
+<body>
+    <input type="text" id="result" readonly>
+    <div>
+        <button class="buttons" id="0" onclick="press('0')" value="0">0</button>
+        <button class="buttons" id="1" onclick="press('1')" value="1">1</button>
+        <button class="buttons" id="2" onclick="press('2')" value="2">2</button>
+        <button class="buttons" id="3" onclick="press('3')" value="3">3</button>
+        <button class="buttons" id="4" onclick="press('4')" value="4">4</button>
+        <button class="buttons" id="5" onclick="press('5')" value="5">5</button>
+        <button class="buttons" id="6" onclick="press('6')" value="6">6</button>
+        <button class="buttons" id="7" onclick="press('7')" value="7">7</button>
+        <button class="buttons" id="8" onclick="press('8')" value="8">8</button>
+        <button class="buttons" id="9" onclick="press('9')" value="9">9</button>
+        <button class="buttons" id="/" onclick="press('/')" value="/">/</button>
+        <button class="buttons" id="*" onclick="press('*')" value="*">*</button>
+        <button class="buttons" id="+" onclick="press('+')" value="+">+</button>
+        <button class="buttons" id="-" onclick="press('-')" value="-">-</button>
+        <button class="equels" id="=" onclick="calculate()" value="=">=</button>
+        <button class="C" onclick="clearResult()">C</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

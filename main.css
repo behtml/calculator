@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=IBM+Plex+Mono:wght@200&family=Montserrat&family=Mukta:wght@300&display=swap');
+
+
+div{
+   width: 600px;
+   margin: 0 auto;
+
+}
+
+button{
+    background-color: #29283d;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+ 
+.equels{
+    background-color: darkblue;
+}
+
+.equels:hover{
+    background-color: #4585ed;
+}
+
+.buttons:hover{
+    background-color: darkgray;
+}
+
+input{
+    margin-left: 210px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    width: 530px;
+    height: 50px;
+    text-align: right;
+    font-size: 40px;
+}
+ .C{
+    background-color: darkblue
+ }
+
+ .C:hover{
+    background-color: #4585ed;
+ }
+
+ body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+ }
